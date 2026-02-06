@@ -7,6 +7,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 :root {
     /* Kolory - granatowy dla tekstów */
@@ -461,6 +465,10 @@ section {
     padding: 25px;
     background-color: white;
     border-radius: 15px;
+    max-width: 94%;
+    width: 94%;
+    margin: auto;
+    
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
 }
@@ -562,6 +570,9 @@ section {
     /* Burger menu widoczny */
     .burger {
         display: flex;
+    }
+    .navbar {
+        max-width: 100%;
     }
     
     /* Menu wysuwane */
